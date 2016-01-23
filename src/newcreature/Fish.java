@@ -18,6 +18,7 @@ public class Fish extends Pet {
        //return currentDepth;
     }
 
+    @Override
     public String say(String something){
         return "Ты что не знаешь, что рыбы не разговаривают !?";
     }
